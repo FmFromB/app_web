@@ -1,0 +1,28 @@
+{% import _self as macros %}
+
+{% macro content() %}
+   <footer class="site-footer">
+      <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Some random footer text
+         <a>Home</a>.
+            </p>
+          </div>
+
+          <div class="socials">
+            <ul class="social-icons">
+              <li><a href="#"><i class="fa fa-facebook">Social network 1</i></a></li>
+              <li><a href="#"><i class="fa fa-twitter">Social network 2</i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble">Social network 3</i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin">Social network 4</i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+</footer>
+{% endmacro %}
+
+{{ macros.content }}
